@@ -1,0 +1,24 @@
+{
+  "name": "keywordgen",
+  "version": "1.0.0",
+  "description": "Keyword generation helpers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentwalter/keywordGen.git"
+  },
+  "author": "Brent Walter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brentwalter/keywordGen/issues"
+  },
+  "homepage": "https://github.com/brentwalter/keywordGen#readme",
+  "dependencies": {
+    "js-combinatorics": "^0.5.2",
+    "tap": "^10.3.3"
+  }
+}
